@@ -1,0 +1,12 @@
+#%Module1.0#####################################################################
+## OTP 0.0.1
+##
+proc ModulesHelp { } {
+    puts stderr "\tAppends the OTP utility 0.0.1 to PATH."
+}
+
+module-whatis   "A simple and secure one-time-password utility."
+
+set             otp_root    /opt/apps/otp-utility/project
+set             otp         $otp_root/bin
+prepend-path    PATH        $otp
