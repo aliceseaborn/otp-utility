@@ -2,7 +2,7 @@
 
 Manages multiple secret-keys used by an account for second-factor authentication (2FA). Each secret-key/seed is stored in its own account file and is encrypted with the user's pgp key. Account files are temporarily decrypted on-the-fly to generate fresh OTPs for logging-in/accessing a 2FA-protected resource.
 
-This project yearns to be re-written in C++ but i have nor had a chance to get to that. In time, be patient.
+This project yearns to be re-written in C++ but i have not had a chance to get to that. In time, be patient.
 
 **Requires:**
 * gcc - Modern C compiler
